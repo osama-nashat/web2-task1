@@ -1,0 +1,119 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/grad 1.jpg");
+    background-size: cover;
+}
+
+
+.form-container{
+    box-shadow: 8px 8px 50px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    height: 500px;
+    
+}
+
+.form-container .msg-form{
+    width: 400px;
+    text-align: center;
+}
+
+.form-container .msg-form h1{
+
+    text-align: center;
+    color: rgba(0,0,0,0.7);
+}
+
+.form-container .msg-form input[type="text"]{
+    display: block;
+    width: 90%;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom:1px solid black;
+    padding: 10px;
+    padding-left:0 ;
+    margin: 30px 5px;
+}
+
+.form-container .msg-form input[type="text"]::placeholder{
+    color: rgba(0,0,0,0.9);
+    font-size: 18px;
+}
+
+.form-container .msg-form textarea{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+    display: block;
+    width: 90%;
+    height: 100px;
+    margin: 30px 5px;
+    border-bottom:1px solid black;
+
+}
+
+.form-container .msg-form textarea::placeholder{
+    color: rgba(0,0,0,0.9);
+    font-size: 18px;
+}
+
+.form-container .msg-form label{
+    color: rgba(0,0,0,0.9);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 5px; 
+}
+
+.form-container .msg-form input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.wrong-name,.wrong-email,.wrong-msg,.wrong-image{
+
+    color: #fb2525;
+    position: absolute;
+    left: 1%;
+    font-size: 18px;
+}
+
+.wrong-name{
+
+    top: 28%;
+}
+
+.wrong-email{
+
+    top: 38%;
+}
+
+.wrong-msg{
+
+    top: 47%; 
+}
+
+.wrong-image{
+
+    top: 65%;  
+}
+
+
+

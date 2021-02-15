@@ -1,0 +1,98 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/grad 1.jpg");
+    background-size: cover;
+}
+
+
+.form-container{
+    box-shadow: 8px 8px 50px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    height: 500px;
+    
+}
+
+.form-container .login-form{
+    width: 300px;
+    text-align: center;
+}
+
+.form-container .login-form h1{
+
+    text-align: center;
+    color: rgba(0,0,0,0.7);
+}
+
+.form-container .login-form input[type="text"]{
+    display: block;
+    width: 90%;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom:1px solid black;
+    padding: 10px;
+    padding-left:0 ;
+    margin: 50px 5px;
+}
+
+.form-container .login-form input[type="text"]::placeholder{
+    color: rgba(0,0,0,0.9);
+    font-size: 18px;
+}
+
+.form-container .login-form input[type="password"]{
+    display: block;
+    width: 90%;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    color: black;
+    border: none;
+    border-bottom:1px solid black;
+    padding: 10px;
+    padding-left: 0;
+    margin: 50px 5px;
+}
+
+.form-container .login-form input[type="password"]::placeholder{
+    color: rgba(0,0,0,0.9);
+    font-size: 18px;
+}
+
+.form-container .login-form input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.form-container .guest{
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 20px;
+    color: rgba(0,0,0,0.9);
+}
+
+.form-container .warning{
+    color: #fb2525;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20%;
+}
